@@ -155,3 +155,7 @@ select first_name, last_name, salary
 from employees
 where salary > (select salary from employees where first_name = 'Charles' and last_name = 'Johnson') and 
 		department_id != (select department_id from employees where first_name = 'Charles' and last_name = 'Johnson');
+
+-- Про SELF JOIN:
+-- https://sky.pro/wiki/sql/osnovy-self-join-v-sql-ponyatie-i-realniy-primer-ispolzovaniya/
+-- https://sky.pro/wiki/sql/self-join-v-sql-chto-eto-i-kak-ispolzovat/
