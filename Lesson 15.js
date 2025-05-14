@@ -248,3 +248,18 @@ db.fruits.find({title: {$ne: 'Lemon'}})
 
 // Из коллекции fruits вывести документы, где кол/во или 3, или 8.
 db.fruits.find({count: {$in: [3, 8]}})
+
+// Пример документа
+{
+    id: 1,
+    first_name: 'Ben',
+    last_name: 'Jameson',
+    skills: ['Teamworking', 'Creativity', 'Leadership'],
+    date_of_hire: '28.05.2014',
+    address: {
+        country: 'Armenia',
+        city: 'Yerevan',
+        street: 'Stepanyan',
+        building: 5
+    }
+}
