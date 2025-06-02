@@ -1,75 +1,34 @@
 db.employees.insertMany([
-        {
-          _id: 1,
-          firstname: 'Inga',
-          lastname: 'Petrova',
-          age: 27,
-          position: 'Barista',
-          salary: 1500,
-          skills: ['preparing drinks', 'cleaning equipment']
-        },
-        {
-          _id: 2,
-          firstname: 'Boris',
-          lastname: 'Orlov',
-          age: 36,
-          position: 'Server',
-          salary: 2400,
-          skills: ['taking orders', 'suggesting meals', 'taking payments']
-        },
-        {
-          _id: 3,
-          firstname: 'Ivan',
-          lastname: 'Demidov',
-          age: 32,
-          position: 'Chef',
-          salary: 3200,
-          skills: ['preparing food', 'baking bread']
-        },
-        {
-          _id: 4,
-          firstname: 'Marina',
-          lastname: 'Sidorov',
-          age: 22,
-          position: 'Hostess',
-          salary: 1700,
-          skills: ['greeting guests', 'seating guests', 'answering phone calls']
-        },
-        {
-          _id: 5,
-          firstname: 'Olga',
-          lastname: 'Ivanova',
-          age: 43,
-          position: 'Sommelier',
-          salary: 2500,
-          skills: ['curating a wine list', 'creating wine pairings']
-        },
-        {
-          _id: 6,
-          firstname: 'Inga',
-          lastname: 'Petrova',
-          age: 45,
-          position: 'IT programmer',
-          salary: 7500,
-          skills: ['Java', 'Python']
-        },
-        {
-          _id: 7,
-          firstname: 'Boris',
-          lastname: 'Ivanov',
-          age: 36,
-          position: 'Server',
-          salary: 6400,
-          skills: [ 'taking payments']
-        },
-    
-        {
-          _id: 8,
-          firstname: 'Inga',
-          lastname: 'Ivanova',
-          age: 36,
-          position: 'Sommelier',
-          salary: 2500,
-          skills: ['curating a wine list', 'creating wine pairings']
-        }
-      ])
+    {
+        firstname: 'John',
+        lastname: 'Doe',
+        age: 28,
+        position: 'Developer',
+        salary: 2500,
+        skills: ['JavaScript', 'HTML', 'CSS']
+    },
+    {
+        firstname: 'Jane',
+        lastname: 'Smith',
+        age: 35,
+        position: 'Project Manager',
+        salary: 4000,
+        skills: ['Management', 'Planning', 'Team Leading']
+    },
+    {
+        firstname: 'Mike',
+        lastname: 'Johnson',
+        age: 32,
+        position: 'Designer',
+        salary: 3000,
+        skills: ['Photoshop', 'Illustrator', 'Creativity']
+    },
+    {
+        firstname: 'Emily',
+        lastname: 'Davis',
+        age: 25,
+        position: 'Tester',
+        salary: 2000,
+        skills: ['Attention to detail', 'Scripting', 'Testing']
+    }
+])
